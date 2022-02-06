@@ -1,9 +1,17 @@
 h1 {
     font-family:  'M PLUS 1', sans-serif;
+    font-weight: bolder;
 }
 h5 {
     text-align: left;
-    
+    font-family:  'M PLUS 1', sans-serif;
+}
+h6 {
+  font-family:'M PLUS 1', sans-serif;
+  
+}
+.hr {
+  color: #05C19C;
 }
 
 .btn-header {
@@ -79,6 +87,7 @@ h5 {
    grid-template-columns: repeat(3, 30%);
    grid-gap: 4%;
    margin: 1%;
+   margin-top: 3vh;
 }
 
 
@@ -132,11 +141,14 @@ h5 {
     
 }
 .descargar-container a {
-    font-family: 'M PLUS 1', sans-serif;
-    text-decoration: none;
-    color: black;
-    font-size: 4vw;
-  
+  font-family: 'M PLUS 1', sans-serif;
+  text-decoration: none;
+  color: black;
+  font-size: 4.5vw;
+  font-weight: 500;
+}
+.descargar-container a i {
+font-size:4.5vw;
 }
 
 .footerI {
