@@ -1,10 +1,12 @@
 h1 {
     font-family:  'M PLUS 1', sans-serif;
     font-weight: bolder;
+    text-align: center;
 }
 h5 {
     text-align: left;
     font-family:  'M PLUS 1', sans-serif;
+    padding-bottom: 3vh;
 }
 h6 {
   font-family:'M PLUS 1', sans-serif;
@@ -61,6 +63,12 @@ h6 {
     color: #098b71;
     
   }
+
+  .fa-music {
+    color: #05C19C;
+    text-shadow: 0 0 2px black, 0 0 2px black;
+  }
+
   .container-estreno {
     text-align: center;
     /* border: 1px solid black; */

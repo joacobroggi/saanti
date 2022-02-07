@@ -292,3 +292,136 @@ h6 {
   opacity: 0.50;
   padding-bottom: 5px;
 }
+
+/* Tablet */
+@media (min-width: 700px) { 
+  
+.tituloMobile {
+   display: none;
+}
+.tituloTab {
+  font-family: 'M PLUS 1', sans-serif;
+}
+.verMas {
+   
+    color: #05C19C;
+    font-size: 3vw;
+}
+
+ }
+
+ /* Portatil */
+ @media (min-width: 1000px) { 
+    .mobile {
+      display: none;
+    }
+    .desktop {
+      display: block;
+    }
+    .logo {
+      margin-left: 2vw;
+    }
+    .container-fluid {
+      padding-left: 0;
+    }
+    .ul-nav {
+      margin-right: 2vw;
+    }
+    .ul-nav a {
+      padding-left: 1.5vw;
+    }
+    .header-li-a {
+      font-family: 'M PLUS 2', sans-serif;
+    }
+    .container-estreno {
+      margin: 3vw;
+    }
+    .texto-bienvenida-desk {
+      font-family: 'M PLUS 1', sans-serif;
+      text-align: left;
+    }
+    iframe {
+      border-radius: 10px;
+     
+    }
+    .escuchala-container {
+      width: 100%;
+      margin: 0 auto;
+     display: grid;
+     grid-template-columns: repeat(3, 30%);
+     grid-gap: 4%;
+     margin: 1%;
+     margin-top: 3vh;
+  }
+  
+  
+  .spotify-container {
+      width: 100%;
+      background-color: black;
+      /* padding: 1%; */
+      border-radius: 10px;
+      display: inline-block;
+      /* height: 40px; */
+      box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+  }
+  .spotify-container a img {
+      width: 100%;
+      height: 100%;
+      padding: 5%;
+  }
+  .youtube-container {
+      width: 100%;
+      background-color: red;
+      /* padding: 1%; */
+      border-radius: 10px;
+      display: inline-block;
+      /* height: 40px; */
+      box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  }
+  
+  .youtube-container a img {
+      width: 100%;
+      height: 100%;
+      padding: 5%;
+  }
+  
+  .descargar-container {
+      width: 100%;
+      background-color: #05C19C;
+      padding: 1%;
+      border-radius: 10px;
+      display: inline-block;
+      /* height: 40px; */
+      box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  
+  }
+  
+  .centrar {
+      width: 100%;
+      height: 100%;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      
+  }
+  .descargar-container a {
+      font-family: 'M PLUS 1', sans-serif;
+      text-decoration: none;
+      color: black;
+      font-size: 2.5vw;
+      font-weight: 500;
+  }
+  .descargar-container a i {
+    font-size: 2.5vw;
+  }
+  .escuchalaPadre {
+    width: 55%;
+    margin: 0 auto;
+  }
+  .verMas {
+     font-size: 2.5vw;
+     margin-left: 3.5vw;
+      color: #05C19C;
+      text-align: left;
+  }
+   }
