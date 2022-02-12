@@ -309,6 +309,12 @@ h6 {
 }
 
  }
+ .desktop {
+   display: none;
+ }
+ .tituloTab {
+   display: none;
+ }
 
  /* Portatil */
  @media (min-width: 1000px) { 
@@ -412,10 +418,10 @@ h6 {
       font-weight: 500;
   }
   .descargar-container a i {
-    font-size: 2.5vw;
+    font-size: 2vw;
   }
   .escuchalaPadre {
-    width: 55%;
+    width: 50%;
     margin: 0 auto;
   }
   .verMas {
