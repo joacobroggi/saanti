@@ -1,7 +1,10 @@
 h1 {
-    font-family:  'M PLUS 1', sans-serif;
-    font-weight: bolder;
+    
     text-align: center;
+    font-family: 'M PLUS 2', sans-serif;
+    font-weight: bolder;
+    
+    
 }
 h5 {
     text-align: left;
@@ -102,6 +105,10 @@ h6 {
    grid-gap: 4%;
    margin: 1%;
    margin-top: 3vh;
+}
+iframe {
+  border-radius: 10px;
+  
 }
 
 
@@ -302,7 +309,7 @@ font-size:4.5vw;
 
 
   /* Portatil */
- @media (min-width: 1000px) { 
+ @media (min-width: 770px) { 
   .mobile {
     display: none;
   }
