@@ -45,7 +45,7 @@ h6 {
     font-size: xx-large;
     font-weight: 300;
     margin: 0 auto;
-    
+    transition: 0.5s;
   }
   .logo:hover {
     color: #098b71;
@@ -301,12 +301,20 @@ font-size:4.5vw;
   }
   .ultimo-cont p {
     font-family:  'M PLUS 1', sans-serif;
-    color: #05C19C;
+    color: white;
     opacity: 0.50;
     padding-bottom: 5px;
+    transition: 0.2s;
+  }
+  .ultimo-cont p:hover {
+    cursor: pointer;
+      color: white;
+      opacity: 1;
   }
 
-
+  .fab {
+    line-height: inherit;
+  }
 
   /* Portatil */
  @media (min-width: 770px) { 

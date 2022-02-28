@@ -155,6 +155,11 @@ h6 {
 .verMas {
    
     color: #05C19C;
+    transition: 0.3s;
+}
+
+.verMas:hover {
+  color: #098b71;
 }
 
 
