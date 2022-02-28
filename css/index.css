@@ -1,6 +1,9 @@
 html {
   scroll-behavior: smooth;
 }
+.fab {
+  line-height: inherit;
+}
 
 .btn-header {
     font-size: x-large;
@@ -293,13 +296,17 @@ h6 {
 }
 .ultimo-cont p {
   font-family:  'M PLUS 1', sans-serif;
-  color: #05C19C;
+  color: white;
   opacity: 0.50;
   padding-bottom: 5px;
+  transition: 0.2s;
 }
-.fab {
-  line-height: inherit;
+.ultimo-cont p:hover {
+  cursor: pointer;
+    color: white;
+    opacity: 1;
 }
+
 /* Tablet */
 @media (min-width: 700px) { 
   
